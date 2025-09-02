@@ -1,0 +1,568 @@
+
+> ecommerce-app@0.1.0 dev
+> next dev --turbopack --port 3500 --hostname 0.0.0.0
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3500
+   - Network:      http://0.0.0.0:3500
+   - Environments: .env.local
+
+ ✓ Starting...
+ ○ Compiling middleware ...
+ ✓ Compiled middleware in 729ms
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.6s
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 6194ms
+ ⚠ Cross origin request detected from 3500.kooder.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 673ms
+ ✓ Compiled /favicon.ico in 1075ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 1174ms
+ GET /products/iphone-15-pro-2.jpg 200 in 1789ms
+ GET /products/macbook-pro-2.jpg 200 in 882ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ GET /products/galaxy-s24-2.jpg 200 in 1301ms
+ GET /products/galaxy-s24-1.jpg 200 in 1445ms
+ GET /products/iphone-15-pro-1.jpg 200 in 1848ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 98ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 264ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ GET /products/nike-air-max-2.jpg 200 in 319ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 411ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ GET /products/galaxy-s24-1.jpg 200 in 523ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ GET /products/galaxy-s24-2.jpg 200 in 541ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 685ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ GET /products/macbook-pro-2.jpg 200 in 724ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ GET /products/iphone-15-pro-2.jpg 200 in 738ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 245ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ GET /products/nike-air-max-2.jpg 200 in 271ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 280ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ○ Compiling /checkout ...
+ ✓ Compiled /checkout in 632ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 706ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 138ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 160ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 86ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 144ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 187ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 583ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /deals 404 in 756ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /deals 404 in 107ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/electronics 404 in 63ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/electronics 404 in 104ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/electronics 404 in 60ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/electronics 404 in 96ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/fashion 404 in 93ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/fashion 404 in 87ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 64ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 330ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ GET /products/iphone-15-pro-2.jpg 200 in 492ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-1.jpg 200 in 538ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ GET /products/galaxy-s24-2.jpg 200 in 606ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 736ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ GET /products/macbook-pro-2.jpg 200 in 746ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 389ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 438ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ○ Compiling /products ...
+ ✓ Compiled /products in 594ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products?category=fashion 200 in 664ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-1.jpg 200 in 269ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 321ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-2.jpg 200 in 385ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-2.jpg 200 in 509ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 635ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ GET /products/macbook-pro-2.jpg 200 in 807ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-1.jpg 200 in 695ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/levis-jeans-1.jpg 200 in 774ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 481ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/sony-headphones-1.jpg 200 in 538ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/sony-headphones-2.jpg 200 in 688ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-2.jpg 200 in 678ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/levis-jeans-2.jpg 200 in 569ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-1.jpg 200 in 578ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-2.jpg 200 in 584ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 527ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3500". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 107ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 179ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 329ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 407ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-1.jpg 200 in 351ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-2.jpg 200 in 411ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-2.jpg received null
+ ✓ Compiled middleware in 2ms
+ ✓ Compiled in 176ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 230ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 132ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3500". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 156ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 121ms
+ ✓ Compiled in 156ms
+ ✓ Compiled in 146ms
+ ✓ Compiled middleware in 1ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 255ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3500". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 329ms
+ GET /checkout 200 in 275ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 117ms
+ ✓ Compiled in 154ms
+ ✓ Compiled middleware in 1ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 280ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3500". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 343ms
+ GET /checkout 200 in 296ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 133ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 473ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 158ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ✓ Compiled in 169ms
+ ✓ Compiled middleware in 2ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /checkout 200 in 249ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3500". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /checkout. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 376ms
+ GET /checkout 200 in 327ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-270 200 in 121ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 430ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 265ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/fashion 404 in 113ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /categories/fashion 404 in 157ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /support 404 in 70ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /support 404 in 109ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /track-order 404 in 69ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /track-order 404 in 105ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 85ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 332ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-2.jpg 200 in 410ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-1.jpg 200 in 525ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ GET /products/galaxy-s24-2.jpg 200 in 599ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 908ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-2.jpg 200 in 1006ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 653ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 643ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products 200 in 132ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 253ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-2.jpg 200 in 384ms
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-1.jpg 200 in 545ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-1.jpg received null
+ ✓ Compiled in 330ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-2.jpg 200 in 673ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 667ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ GET /products/macbook-pro-2.jpg 200 in 660ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-1.jpg 200 in 734ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ GET /products/levis-jeans-1.jpg 200 in 821ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-1.jpg 200 in 783ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-2.jpg 200 in 361ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-2.jpg 200 in 440ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 513ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ GET /products/sony-headphones-1.jpg 200 in 577ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 445ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ GET /products/levis-jeans-2.jpg 200 in 502ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/sony-headphones-2.jpg 200 in 488ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/iphone-15-pro-1.jpg 200 in 412ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-1.jpg received null
+ GET /products/iphone-15-pro-2.jpg 200 in 477ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/iphone-15-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/adidas-ultraboost-1.jpg 200 in 596ms
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-1.jpg received null
+ GET /products/adidas-ultraboost-2.jpg 200 in 617ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /products/adidas-ultraboost-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/macbook-pro-1.jpg 200 in 706ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-1.jpg received null
+ GET /products/macbook-pro-2.jpg 200 in 740ms
+ ⨯ The requested resource isn't a valid image for /products/macbook-pro-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-1.jpg 200 in 426ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/galaxy-s24-2.jpg 200 in 499ms
+ ⨯ The requested resource isn't a valid image for /products/galaxy-s24-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-1.jpg 200 in 593ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/nike-air-max-2.jpg 200 in 694ms
+ ⨯ The requested resource isn't a valid image for /products/nike-air-max-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/sony-headphones-1.jpg 200 in 785ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/sony-headphones-2.jpg 200 in 865ms
+ ⨯ The requested resource isn't a valid image for /products/sony-headphones-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/levis-jeans-1.jpg 200 in 645ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/levis-jeans-2.jpg 200 in 641ms
+ ⨯ The requested resource isn't a valid image for /products/levis-jeans-2.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-1.jpg 200 in 649ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-1.jpg received null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /products/[slug]. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /products/ikea-sofa-2.jpg 200 in 506ms
+ ⨯ The requested resource isn't a valid image for /products/ikea-sofa-2.jpg received null
+ ✓ Compiled in 180ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.w40e5cl6nxn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.w40e5cl6nxn'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.1s
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.728vbkl7m4h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.728vbkl7m4h'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.w40e5cl6nxn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.w40e5cl6nxn'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.lpbkocdjl7'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.lpbkocdjl7'
+}
+[Error: ENOENT: no such file or directory, open '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.j251emat5b'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/ecommerce-app/.next/static/development/_buildManifest.js.tmp.j251emat5b'
+}
+[?25h

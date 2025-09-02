@@ -1,0 +1,14 @@
+
+> ecommerce-app@0.1.0 dev
+> next dev --turbopack --port 3500 --hostname 0.0.0.0
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3500
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3500) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3500
+}
+[?25h
