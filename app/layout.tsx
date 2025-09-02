@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AppLayout from "@/components/layout/AppLayout";
@@ -13,13 +13,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: "ECommerce - Your Online Shopping Destination",
   description: "Discover amazing products at great prices. Fast shipping, secure checkout, and excellent customer service.",
   keywords: "ecommerce, online shopping, products, deals, electronics, fashion, home",
   authors: [{ name: "ECommerce Team" }],
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     title: "ECommerce - Your Online Shopping Destination",
     description: "Discover amazing products at great prices.",
@@ -42,7 +46,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Security headers and CSP will be handled by middleware */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Security-Policy" content="frame-ancestors 'self' https://54287.kooder.dev https://57588.kooder.dev;" />
       </head>
       <body
